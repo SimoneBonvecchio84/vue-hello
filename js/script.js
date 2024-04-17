@@ -8,12 +8,12 @@ createApp({
             userMessage:"Benvenuto in Vue Js",
             user: "",
             lastName: "",
-            image: "./../img/baffi.jpg",
+            image: "baffi.jpg",
         }
     },
     methods: {
         print: function () {
-           this.userMessage =`Benvenuto in Vue Js ${this.user} ${this.lastName}`; 
+           this.userMessage =`Benvenuto in Vue Js: ${this.user} ${this.lastName}`; 
 
             this.user = "";
             this.lastName = "";
